@@ -26,7 +26,7 @@ $tipo_alerta = "";
 
 // Opcional: Verificar que el usuario tenga permisos antes de procesar el POST
 if (!isset($_SESSION['usuario_id']) || $_SESSION['usuario_rol'] != 3) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
@@ -150,3 +150,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </footer>
 </body>
 </html>
+
