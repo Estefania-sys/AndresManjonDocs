@@ -27,7 +27,7 @@ $tipo_alerta = "";
 
 // Verificación de permisos (Admin o Profesor)
 if (!isset($_SESSION['usuario_id']) || ($_SESSION['usuario_rol'] != 3 && $_SESSION['usuario_rol'] != 2)) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
@@ -167,3 +167,4 @@ try {
     </footer>
 </body>
 </html>
+
