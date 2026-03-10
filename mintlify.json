@@ -1,0 +1,23 @@
+{
+  "name": "Biblioteca Andrés Manjón",
+  "navigation": [
+    {
+      "group": "Inicio",
+      "pages": ["introduccion"]
+    },
+    {
+      "group": "Arquitectura",
+      "pages": ["modelo-datos", "roles-seguridad"]
+    },
+    {
+      "group": "Guía de Uso",
+      "pages": ["admin-guia", "profesor-guia", "estudiante-guia"]
+    }
+  ],
+  "colors": {
+    "primary": "#1a4b8c",
+    "light": "#f0f4f8",
+    "dark": "#1e293b"
+  },
+  "favicon": "/favicon.png"
+}
