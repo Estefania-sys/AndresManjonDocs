@@ -21,7 +21,7 @@ loadEnv(__DIR__ . '/.env');
 
 // Verificación de seguridad de sesión
 if (!isset($_SESSION['usuario_id']) || $_SESSION['usuario_rol'] != 3) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
@@ -162,3 +162,4 @@ $categorias = [
 
 </body>
 </html>
+
