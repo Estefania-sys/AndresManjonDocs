@@ -23,7 +23,7 @@ $db_file = $_ENV['DB_FILE'] ?? 'biblioteca.db';
 
 // Verificación de seguridad
 if (!isset($_SESSION['usuario_id']) || $_SESSION['usuario_rol'] != 3) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
@@ -251,3 +251,4 @@ $hoy = date('Y-m-d');
     </footer>
 </body>
 </html>
+
