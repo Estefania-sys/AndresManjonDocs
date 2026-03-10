@@ -25,7 +25,7 @@ $es_invitado = (isset($_GET['modo']) && $_GET['modo'] === 'invitado');
 $esta_logueado = isset($_SESSION['usuario_id']);
 
 if (!$es_invitado && !$esta_logueado) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
@@ -297,3 +297,4 @@ try {
     </footer>
 </body>
 </html>
+
